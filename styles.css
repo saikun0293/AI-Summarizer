@@ -1,0 +1,277 @@
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+/* Rajdhani */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+body {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  color: #283593;
+  min-height: 100vh;
+}
+
+.bg-vector {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.logo {
+  background-color: #283593;
+  width: 250px;
+  padding: 10px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-evenly;
+}
+
+.contact {
+  text-decoration: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+}
+
+.sign-up,
+.get-started {
+  background-color: #007bff;
+  font-family: "Roboto" !important;
+  border: none;
+  outline: none;
+  padding: 10px 18px;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.login {
+  background: rgba(0, 0, 0, 0);
+  outline: none;
+  border: 2px solid #007bff;
+  padding: 10px 18px;
+  font-size: 18px;
+  border-radius: 7px;
+  font-family: "Roboto";
+  color: white;
+}
+
+.container {
+  margin-top: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.title {
+  font-family: "Rajdhani";
+  font-size: 84px;
+}
+
+.info {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.get-started {
+  background-color: #283593;
+  width: 200px;
+  margin: 50px 0;
+}
+
+.down-button {
+  text-align: center;
+}
+
+.sub-title {
+  color: #283593;
+  font-family: "Rajdhani";
+  font-size: 84px;
+  text-align: center;
+}
+
+.card-container {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.card {
+  border-radius: 25px;
+  background: #ffffff;
+  box-shadow: 5px 5px 16px #dbdbdb, -5px -5px 16px #ffffff;
+  width: 250px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 300;
+  height: 300px;
+}
+
+.card img {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  transform: translate(130%, -290%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #283593;
+}
+
+.s-1::before {
+  content: "1";
+  color: white;
+  font-size: 57px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-2::before {
+  content: "2";
+  color: white;
+  font-size: 57px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-3::before {
+  content: "3";
+  color: white;
+  font-size: 57px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-4 {
+  width: 90%;
+  margin: 50px auto;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 300;
+  position: relative;
+  box-shadow: 5px 5px 16px #dbdbdb, -5px -5px 16px #ffffff;
+  border-radius: 10px;
+}
+
+.step-4::before {
+  content: "";
+  position: absolute;
+  transform: translate(1000%, -130%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #283593;
+}
+
+.s-4::before {
+  content: "4";
+  color: white;
+  font-size: 57px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.processing-img {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* end */
+
+.end {
+  background-color: #f5f5f5;
+}
+
+.logo-2 {
+  width: 400px;
+  margin: 2%;
+}
+
+.use-case {
+  margin: 2%;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.new-card img {
+  display: block;
+  margin: 0 auto;
+}
+.new-card {
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 5px 5px 16px #dbdbdb, -5px -5px 16px #ffffff;
+  width: 300px;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 30px 0 50px 0;
+}
+
+.use-case-content {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+}
+.conclude {
+  font-weight: 300;
+  font-size: 25px;
+  width: 50%;
+  margin: 70px auto 30px;
+}
